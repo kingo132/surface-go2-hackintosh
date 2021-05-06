@@ -43,7 +43,7 @@ Things will work
 - [ ] Ambient sensor
 
 Things won't work
-- [ ] Front & read camera (won't work)
+- [ ] Front & rear camera (won't work)
 - [ ] Ir camera (won't work)
 - [ ] NFC (won't work)
 
