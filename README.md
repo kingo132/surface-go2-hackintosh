@@ -41,6 +41,7 @@ Things will work
 - [ ] Power, volume down and up button
 - [ ] Sleep/wake, will stuck at surface logo when wake
 - [ ] Ambient sensor
+- [x] Stylus, work but no sense of pressure
 
 Things won't work
 - [ ] Front & rear camera (won't work)
