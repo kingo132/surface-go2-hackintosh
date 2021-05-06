@@ -21,6 +21,12 @@ Install hackintosh into surface go 2
 |LTE(if available)|Surface Mobile Boradband, USB device, 045E:09A5|
 |GPS(if available)|MSHW0142|
 
+## Todo list
+- [ ] Trackpad often mistouch when typing
+- [ ] Sleep/wake doesn't work
+- [ ] Ambient sensor doesn't work
+- [ ] Speaker seems a little quiet
+
 ## Current progress
 Things will work
 - [x] Internal Speakers
@@ -34,7 +40,7 @@ Things will work
 - [x] Type-c to USB3 & USB2
 - [ ] Power, volume down and up button
 - [ ] Sleep/wake, will stuck at surface logo when wake
-
+- [ ] Ambient sensor
 
 Things won't work
 - [ ] Front & read camera (won't work)
@@ -61,6 +67,11 @@ Please notice if you cannot boot the system after installing, you need to:
 csrutil enable    
 ```
 4. Reboot and Remove all file above
+
+## BIOS option address
+
+* CFG Lock: VarStoreInfo (VarOffset/VarName): 0x3C, VarStore: 0x3 (CpuSetup)
+* VT-d: VarStoreInfo (VarOffset/VarName): 0xE3, VarStore: 0x2 (SaSetup)
 
 ## Related issues
 * https://github.com/VoodooI2C/VoodooI2CHID/pull/48
