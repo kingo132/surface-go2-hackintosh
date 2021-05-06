@@ -52,8 +52,10 @@ By default, the long term TDP is set to 8 watt, you can lower it to 7 watt to ma
 ```
 sudo ./voltageshift buildlaunchd -115 0 0 0 0 0 7 28 18 0.002 60
 ```
-You can remove this by using: ./voltageshift removelaunchd
-
+You can remove this by using:
+```
+./voltageshift removelaunchd
+```
 Or manual remove by:
  ```
 sudo rm /Library/LaunchDaemons/com.sicreative.VoltageShift.plist
