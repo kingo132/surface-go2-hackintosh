@@ -7,8 +7,8 @@ Install hackintosh into surface go 2
 | ---------------- | ---------------------------------- |
 | CPU              | Intel Core m3 8100Y (Amber Lake Y) |
 | iGPU             | Intel® UHD Graphics 615            |
-| Audio            | Realtek ALCxxx                     |
-| Ram              | 8 GB DDR4 xxxx Mhz                |
+| Audio            | Realtek ALC298          |
+| Ram              | 2x4 GB LPDDR3 1867 MHz                |
 | Wifi + Bluetooth |              |
 | Storage             | 128GB SSD       |
 | TF Card reader | Realtek PCI-E Card Reader, 152D:1237 |
