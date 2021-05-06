@@ -34,7 +34,7 @@ Things will work
 - [ ] Combojack headphones (haven't test)
 - [x] SpeedStep
 - [x] Touch screen
-- [x] Surface type cover, both keyboard and trackpad Multi-Touch gestures
+- [x] Surface type cover, both keyboard and trackpad multi-touch gestures
 - [x] TF Card reader (Partially work, read/write speed is limited at 8MB/s)
 - [x] Type-c to HDMI
 - [x] Type-c to USB3 & USB2
