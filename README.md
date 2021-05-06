@@ -22,20 +22,45 @@ Install hackintosh into surface go 2
 |GPS(if available)|MSHW0142|
 
 ## Current progress
+Things will work
 - [x] Internal Speakers
 - [x] Internal microphone
 - [ ] Combojack headphones (haven't test)
 - [x] SpeedStep
 - [x] Touch screen
 - [x] Surface type cover, both keyboard and trackpad Multi-Touch gestures
-- [ ] Front & read camera (won't work)
-- [ ] Ir camera (won't work)
 - [x] TF Card reader (Partially work, read/write speed is limited at 8MB/s)
 - [x] Type-c to HDMI
 - [x] Type-c to USB3 & USB2
 - [ ] Power, volume down and up button
-- [ ] NFC (won't work)
 - [ ] Sleep/wake, will stuck at surface logo when wake
+
+
+Things won't work
+- [ ] Front & read camera (won't work)
+- [ ] Ir camera (won't work)
+- [ ] NFC (won't work)
+
+## Lower the temperature
+By default, the long term TDP is set to 8 watt, you can lower it to 7 watt to maintain the temp below 80c. Also, offset the cpu voltage by 115mv also help cool the device.
+```
+sudo ./voltageshift buildlaunchd -115 0 0 0 0 0 7 28 18 0.002 60
+```
+You can remove this by using: ./voltageshift removelaunchd
+
+Or manual remove by:
+ ```
+sudo rm /Library/LaunchDaemons/com.sicreative.VoltageShift.plist
+sudo rm -R /Library/Application\ Support/VoltageShift
+```
+Please notice if you cannot boot the system after installing, you need to:
+1. Fully turn off Computer (not reboot):
+2. Boot start by Command-R to recovery mode :
+3. In "Terminal" Enable the CSR protection to stop undervoltage running when boot 
+```
+csrutil enable    
+```
+4. Reboot and Remove all file above
 
 ## Related issues
 * https://github.com/VoodooI2C/VoodooI2CHID/pull/48
