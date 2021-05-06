@@ -8,3 +8,6 @@ Install hackintosh into surface go 2
 
 # Disable the sleep first
 https://gist.github.com/pwnsdx/2ae98341e7e5e64d32b734b871614915
+
+# Useful links
+* https://www.anandtech.com/show/6355/intels-haswell-architecture/3
