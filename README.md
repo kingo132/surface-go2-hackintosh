@@ -79,6 +79,7 @@ csrutil enable
 ## Related issues
 * https://github.com/VoodooI2C/VoodooI2CHID/pull/48
 * https://www.reddit.com/r/hackintosh/comments/mwrzxg/intel_igpu_hdmiinternal_screen_problem/
+* https://www.reddit.com/r/hackintosh/comments/mrfmmk/surface_go2_hackintosh/
 * https://github.com/linux-surface/linux-surface/wiki/Surface-Go-2
 
 ## Disable the sleep first
