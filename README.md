@@ -48,6 +48,11 @@ Things won't work
 - [ ] Ir camera (won't work)
 - [ ] NFC (won't work)
 
+## Turn off BD PROCHOT
+It's very wired that BD PROCHOT will kick in even at 60 ~ 70c. When it kick in, the cpu will die to 0.4Ghz and become a holy garbage. So it's better to turn it off to get a better performance.
+
+You can use the DisablePROCHOT.efi file in EFI/OC/Drivers to turn off it. After turnning it off, if the cpu continues to be fully loaded, the temperature may rise to near 90c. Beyond 90c, the device will become unstable, it will either auto power off or crash. So you should also do the following step to lower the temperature.
+
 ## Lower the temperature
 By default, the long term TDP is set to 8 watt, you can lower it to 7 watt to maintain the temp below 80c. Also, offset the cpu voltage by 115mv also help cool the device.
 ```
