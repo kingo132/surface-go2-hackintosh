@@ -49,7 +49,7 @@ Things won't work
 - [ ] NFC (won't work)
 
 ## Turn off BD PROCHOT
-It's very wired that BD PROCHOT will kick in even at 60 ~ 70c. When it kick in, the cpu will die to 0.4Ghz and become a holy garbage. So it's better to turn it off to get a better performance.
+It's very weird that BD PROCHOT will kick in even at 60 ~ 70c. When it kick in, the cpu will die to 0.4Ghz and become a holy crap. So it's better to turn it off to get a better performance.
 
 You can use the DisablePROCHOT.efi file in EFI/OC/Drivers to turn off it. After turnning it off, if the cpu continues to be fully loaded, the temperature may rise to near 90c. Beyond 90c, the device will become unstable, it will either auto power off or crash. So you should also do the following step to lower the temperature.
 
