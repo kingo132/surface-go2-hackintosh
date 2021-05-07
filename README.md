@@ -31,7 +31,7 @@ Install hackintosh into surface go 2
 Things will work
 - [x] Internal Speakers
 - [x] Internal microphone
-- [ ] Combojack headphones (haven't test)
+- [x] Combojack headphones
 - [x] SpeedStep
 - [x] Touch screen
 - [x] Surface type cover, both keyboard and trackpad multi-touch gestures
