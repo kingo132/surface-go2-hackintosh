@@ -81,6 +81,21 @@ csrutil enable
 * CFG Lock: VarStoreInfo (VarOffset/VarName): 0x3C, VarStore: 0x3 (CpuSetup)
 * VT-d: VarStoreInfo (VarOffset/VarName): 0xE3, VarStore: 0x2 (SaSetup)
 * DVMT Pre-Allocated, VarStoreInfo (VarOffset/VarName): 0xDF, VarStore: 0x2 (SaSetup)
+* Enable Hibernation, VarStoreInfo (VarOffset/VarName): 0x1E6, VarStore: 0x1234 (Setup)
+* Fast Boot:, VarStoreInfo (VarOffset/VarName): 0x101, VarStore: 0x1234 (Setup)
+* Power Limit 1, VarStoreInfo (VarOffset/VarName): 0x57, VarStore: 0x3 (CpuSetup): Default is 0x1f40=8000=8Watt
+* Power Limit 2, VarStoreInfo (VarOffset/VarName): 0x5B, VarStore: 0x3 (CpuSetup): Default is 0x4650=18000=18Watt
+* Power Limit 1 Time Window, VarStoreInfo (VarOffset/VarName): 0x5F, VarStore: 0x3 (CpuSetup): Default is 0 (infinate)
+
+| Name   | From    | To
+| ---------------- | --------- | | --------- |
+| CFG Lock| Enable | Disable|
+| VT-d | Enable | Disable |
+| DVMT | 32MB | 64MB|
+| Enable Hibernation | Enable | Disable |
+| Fast Boot | Enable | Disable |
+
+### Options modified
 
 ## Related issues
 * https://github.com/VoodooI2C/VoodooI2CHID/pull/48
