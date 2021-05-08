@@ -87,6 +87,7 @@ csrutil enable
 * Power Limit 2, VarStoreInfo (VarOffset/VarName): 0x5B, VarStore: 0x3 (CpuSetup): Default is 0x4650=18000=18Watt
 * Power Limit 1 Time Window, VarStoreInfo (VarOffset/VarName): 0x5F, VarStore: 0x3 (CpuSetup): Default is 0 (infinate)
 
+### Options modified
 | Name   | From    | To |
 | ---------------- | --------- | --------- |
 | CFG Lock| Enable | Disable|
@@ -94,8 +95,6 @@ csrutil enable
 | DVMT | 32MB | 64MB|
 | Enable Hibernation | Enable | Disable |
 | Fast Boot | Enable | Disable |
-
-### Options modified
 
 ## Related issues
 * https://github.com/VoodooI2C/VoodooI2CHID/pull/48
