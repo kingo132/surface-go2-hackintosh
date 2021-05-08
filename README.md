@@ -20,6 +20,7 @@ Install hackintosh into surface go 2
 |Battery|26.81Wh 7.66v 3500mAh|
 |LTE(if available)|Surface Mobile Boradband, USB device, 045E:09A5|
 |GPS(if available)|MSHW0142|
+|Accelerometers, light sensors, compass||
 
 ## Todo list
 - [ ] Trackpad often mistouch when typing
@@ -42,6 +43,7 @@ Things will work
 - [ ] Sleep/wake, will stuck at surface logo when wake
 - [ ] Ambient sensor
 - [x] Stylus, work but no sense of pressure
+- [ ] Accelerometers, light sensors, compass
 
 Things won't work
 - [ ] Front & rear camera (won't work)
