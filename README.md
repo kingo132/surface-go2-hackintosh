@@ -80,6 +80,7 @@ csrutil enable
 
 * CFG Lock: VarStoreInfo (VarOffset/VarName): 0x3C, VarStore: 0x3 (CpuSetup)
 * VT-d: VarStoreInfo (VarOffset/VarName): 0xE3, VarStore: 0x2 (SaSetup)
+* DVMT Pre-Allocated, VarStoreInfo (VarOffset/VarName): 0xDF, VarStore: 0x2 (SaSetup)
 
 ## Related issues
 * https://github.com/VoodooI2C/VoodooI2CHID/pull/48
