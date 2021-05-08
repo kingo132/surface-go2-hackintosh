@@ -9,7 +9,7 @@ Install hackintosh into surface go 2
 | iGPU             | Intel® UHD Graphics 615            |
 | Audio            | Realtek ALC298          |
 | Ram              | 2x4 GB LPDDR3 1867 MHz                |
-| Wifi + Bluetooth |              |
+| Wifi + Bluetooth |   AX200  |
 | Storage             | 128GB SSD       |
 | TF Card reader | Realtek PCI-E Card Reader, 152D:1237 |
 |Front&Rear camera|Intel(R) AVStream Camera 2500, ISP Interface, 8086:591c|
