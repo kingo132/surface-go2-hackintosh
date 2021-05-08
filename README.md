@@ -43,7 +43,7 @@ Things will work
 - [ ] Sleep/wake, will stuck at surface logo when wake
 - [ ] Ambient sensor
 - [x] Stylus, work but no sense of pressure
-- [ ] Accelerometers, light sensors, compass
+- [ ] Accelerometers, compass
 
 Things won't work
 - [ ] Front & rear camera (won't work)
