@@ -88,7 +88,7 @@ csrutil enable
 * Power Limit 1 Time Window, VarStoreInfo (VarOffset/VarName): 0x5F, VarStore: 0x3 (CpuSetup): Default is 0 (infinate)
 
 | Name   | From    | To |
-| ---------------- | --------- | | --------- |
+| ---------------- | --------- | --------- |
 | CFG Lock| Enable | Disable|
 | VT-d | Enable | Disable |
 | DVMT | 32MB | 64MB|
