@@ -5,20 +5,21 @@ Install hackintosh into surface go 2
 
 | Component        | Brank                              |
 | ---------------- | ---------------------------------- |
-| CPU              | Intel Core m3 8100Y (Amber Lake Y) |
+| CPU              | Intel Core m3 8100Y (1.1 - 3.4 GHz, Amber Lake-Y) |
 | iGPU             | Intel® UHD Graphics 615            |
 | Audio            | Realtek ALC298          |
 | Ram              | 2x4 GB LPDDR3 1867 MHz                |
-| Wifi + Bluetooth |   Wifi6 AX200  |
+| Wifi + Bluetooth |   Wifi6 AX200, Bluetooth 5.0  |
 | Storage             | 128GB SSD       |
 | TF Card reader | Realtek PCI-E Card Reader, 152D:1237 |
-|Front&Rear camera|Intel(R) AVStream Camera 2500, ISP Interface, 8086:591c|
+|Front&Rear camera|Intel(R) AVStream Camera 2500, ISP Interface, 8086:591c, 8 MPix/5 MPix|
 |Type cover trackpad|Microsoft type cover, 045E:096F|
+|Display|10.50 inch 3:2, 1920 x 1280 pixel 220 PPI, 10-Point Capacitive|
 |Touch Screen|ELAN9038, \_SB.PCI0.I2C1.TPL1, 8086:9d61|
 |Screen|BOE CQ NV105WAM-N31, BOE088B|
 |NFC|NXP NFC Client Device, NXP3001|
 |Battery|26.81Wh 7.66v 3500mAh|
-|LTE(if available)|Surface Mobile Boradband, USB device, 045E:09A5|
+|LTE(if available)|Surface Mobile Boradband, USB device, 045E:09A5, Snapdragon X16 LTE|
 |GPS(if available)|MSHW0142|
 |Accelerometers, light sensors, compass||
 
