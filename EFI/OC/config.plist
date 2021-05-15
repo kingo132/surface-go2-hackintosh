@@ -1621,7 +1621,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>I2C</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1639,7 +1639,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2CHID.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>I2CHID</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -2067,7 +2067,6 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>AudioDxe.efi</string>
 			<string>OpenCanopy.efi</string>
 			<string>OpenRuntime.efi</string>
 			<string>OpenHfsPlus.efi</string>

@@ -24,7 +24,7 @@ Install hackintosh into surface go 2
 |Accelerometers, light sensors, compass||
 
 ## Todo list
-- [ ] Trackpad often mistouch when typing
+- [x] Trackpad often mistouch when typing
 - [ ] Sleep/wake doesn't work
 - [ ] Ambient sensor doesn't work
 - [ ] Speaker seems a little quiet
