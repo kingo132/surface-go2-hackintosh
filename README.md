@@ -24,6 +24,7 @@ Install hackintosh into surface go 2
 |Accelerometers, light sensors, compass||
 
 ## Todo list
+- [ ] Screen will scale down after display sleep/wake when hidpi is enabled
 - [x] Trackpad often mistouch when typing
 - [ ] Sleep/wake doesn't work
 - [ ] Ambient sensor doesn't work
