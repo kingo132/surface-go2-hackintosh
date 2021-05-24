@@ -113,3 +113,7 @@ https://gist.github.com/pwnsdx/2ae98341e7e5e64d32b734b871614915
 
 ## Useful links
 * https://www.anandtech.com/show/6355/intels-haswell-architecture/3
+
+## Related repo
+* https://github.com/stryses/Mi-Laptop-Air12.5-8100Y-Hackintosh
+* https://github.com/anonymous5l/macpanda
