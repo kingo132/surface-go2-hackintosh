@@ -26,10 +26,10 @@ Install hackintosh into surface go 2
 ## Todo list
 - [x] Trackpad often mistouch when typing
 - [ ] Sleep/wake doesn't work
-- [ ] Screen will scale down after display sleep/wake when hidpi is enabled
-- [ ] Type cover Caps led does not light up when enabled
+- [x] Screen will scale down after display sleep/wake when hidpi is enabled: fixed by using using this [dameon](https://github.com/zysuper/rice-cracker)
+- [ ] Type cover Caps led does not light up when enabled: fired an [issue](https://github.com/VoodooI2C/VoodooI2CHID/pull/52#issuecomment-841795827)
 - [ ] Ambient sensor doesn't work
-- [ ] Speaker seems a little quiet
+- [ ] Speaker seems a little quiet: may be can boost by this app [eqMac](https://eqmac.app/)
 
 ## Current progress
 Things will work
