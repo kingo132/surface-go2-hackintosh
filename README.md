@@ -117,3 +117,4 @@ https://gist.github.com/pwnsdx/2ae98341e7e5e64d32b734b871614915
 ## Related repo
 * https://github.com/stryses/Mi-Laptop-Air12.5-8100Y-Hackintosh
 * https://github.com/anonymous5l/macpanda
+* https://github.com/jibsaramnim/gpd-pocket2-hackintosh
