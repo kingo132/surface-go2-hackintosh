@@ -1,3 +1,5 @@
+⚠️Sorry, everyone, I have given up on having Mac OS running on surface go2. So this repository is abandoned. You can fork and modify it, and I will no longer update and maintain it.
+
 # surface-go2-hackintosh
 Install hackintosh into surface go 2
 
